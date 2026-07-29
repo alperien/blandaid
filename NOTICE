@@ -1,0 +1,29 @@
+blandaid
+Copyright (c) 2026 Yu-369 (original VibeCurb)
+Copyright (c) 2026 alperien (blandaid changes)
+
+blandaid is descended from https://github.com/Yu-369/VibeCurb. The original
+design skills, the pipeline structure, the architecture catalogs, and the CLI
+concept are the work of Yu-369 and remain under the MIT license in LICENSE.
+
+Changes from upstream:
+
+  - Every skill was restructured into a router plus on-demand reference files.
+  - A shared core skill (blandaid-core) was added so the five generators stop
+    redefining the same vocabulary.
+  - design-humanizer was added, an auditor for AI design tells, including a
+    dated second-order section.
+  - Provenance, register selection, and authorship rules were added to core.
+  - The CLI was rewritten with real subcommands and five install targets.
+  - A validator and CI were added to enforce the project's own writing rules.
+  - The project was renamed from VibeCurb to blandaid.
+
+The design-humanizer skill adapts its method from
+https://github.com/blader/humanizer by blader, which applies the same approach
+to prose using Wikipedia's "Signs of AI writing" guide, maintained by
+WikiProject AI Cleanup. The structure of that skill (name the tell, show the
+default, show the fix, then guard against over-correction) is a direct debt.
+humanizer is MIT licensed. No text was copied from it.
+
+The CLI depends on chalk, inquirer, and ora, distributed under their own
+licenses.

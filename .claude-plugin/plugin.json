@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "blandaid",
+  "description": "Seven design skills that treat bland, AI-default frontend output. Hero sections, motion, image direction, pixel replication, non-destructive restyling, and an auditor that detects 40 AI design tells.",
+  "version": "3.0.0",
+  "author": {
+    "name": "alperien",
+    "url": "https://github.com/alperien"
+  },
+  "homepage": "https://github.com/alperien/blandaid",
+  "repository": "https://github.com/alperien/blandaid",
+  "license": "MIT",
+  "keywords": [
+    "design",
+    "frontend",
+    "ui",
+    "animation",
+    "css",
+    "ai-detection",
+    "skills"
+  ]
+}
