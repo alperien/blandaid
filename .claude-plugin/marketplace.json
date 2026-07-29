@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace-manifest.json",
+  "name": "blandaid",
+  "owner": {
+    "name": "alperien",
+    "url": "https://github.com/alperien"
+  },
+  "description": "The blandaid design skills, installable as a Claude Code plugin.",
+  "plugins": [
+    {
+      "name": "blandaid",
+      "source": "./",
+      "description": "Seven design skills that treat bland, AI-default frontend output. Includes design-humanizer, an auditor that detects and fixes 40 AI design tells.",
+      "license": "MIT",
+      "keywords": [
+        "design",
+        "frontend",
+        "ui",
+        "animation",
+        "css",
+        "ai-detection",
+        "skills"
+      ]
+    }
+  ]
+}
